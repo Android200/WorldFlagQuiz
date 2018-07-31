@@ -185,7 +185,7 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
 
     }
     public void timerCOunter(){
-        countDownTimer = new CountDownTimer(10000+100, 1000) {
+        countDownTimer = new CountDownTimer(20000+100, 1000) {
             @Override
             public void onTick(long l) {
                 timer.setText(String.valueOf(l/1000));
